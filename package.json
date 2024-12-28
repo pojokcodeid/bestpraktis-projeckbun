@@ -19,7 +19,7 @@
     "typescript": "^5.7.2"
   },
   "scripts": {
-    "dev":"bun run --watch index.ts",
+    "dev": "bun run --watch index.ts",
     "lint": "eslint . --fix",
     "format": "prettier --write .",
     "check-types": "bunx tsc --noEmit --pretty",
